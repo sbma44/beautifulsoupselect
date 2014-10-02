@@ -5,14 +5,12 @@ def readme():
         return f.read()
 
 setup(name='beautifulsoupselect',
-      version='0.1',
-      description='',
+      version='0.2',
+      description='Simple wrapper to integrate BeautifulSoup and soupselect.py in a single package',
       url='http://github.com/sbma44/beautifulsoupselect',
       author='Tom Lee',
       author_email='thomas.j.lee@gmail.com',
       license='MIT',
       packages=['beautifulsoupselect'],
-      install_requires=[
-          'BeautifulSoup', 
-      ],      
+      install_requires=['BeautifulSoup'],      
       zip_safe=False)
